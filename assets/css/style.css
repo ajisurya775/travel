@@ -1,0 +1,143 @@
+:root{
+    --main-color : #D0FCFF;
+    --second-color : #1F4590;
+    --third-color : #FFA451;
+    --main-font : 'Raleway', sans-serif;
+    --second-font : 'Poppins', sans-serif;
+}
+
+body{
+    font-family: var(--main-font);
+    background: var(--main-color) !important;
+}
+
+@media (max-width: 576px) {
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+
+section{
+    margin: 4rem 0;
+}
+
+/* start navbar */
+
+.navbar .navbar-brand{
+    color: var(--second-color);
+    font-weight: 600;
+}
+
+.navbar-brand span {
+  color: var(--third-color);
+  font-size: 1.25rem;
+}
+
+.navbar-toggle {
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: var(--second-color);
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: var(--third-color);
+    font-weight: 800;
+}
+
+.btn.btn-warning.btn-nav {
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+/* end navbar */
+
+/* start hero */
+
+.title-hero h2 {
+    line-height: 100%;
+    color: var(--second-color);
+}
+
+.title-hero h2 span {
+    color: var(--third-color);
+}   
+
+.schedule-hero {
+    position: relative;
+}
+
+.get-hero {
+    background: var(--second-color);
+    border-radius: 50px;
+    width: 205px;
+    height: 45px;
+    z-index: 1000;
+    position: absolute;
+    top: -25px;
+    right: 400px;
+}
+
+.get-hero h6 {
+    color: white;
+}
+
+.form-schedule {
+    width: 100%;
+    max-width: 655px;
+    height: 120px;
+    max-height: 100%;
+    background: linear-gradient(135deg,
+    #fbc2eb,  /* pink */
+    #a6c1ee,  /* biru muda */
+    #fcd5ce,  /* peach */
+    #c9fdd7,  /* hijau muda */
+    #fff3b0   /* kuning muda */
+  );
+    border-radius: 50px;
+    border: white 5px solid;
+    margin-top: -10px;
+}
+
+.form-group i {
+    color: var(--second-color);
+}
+
+.btn-search {
+  background: var(--third-color);
+  width: 67px;
+  height: 67px;
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none; 
+  color: white;
+}
+
+
+.btn-search i {
+    color: white;
+}
+
+.hero-map {
+    width: 25%;
+    margin-top: 5%;
+}
+
+.hero-traveler {
+    width: 40%;
+    margin-top: 10%;
+}
+
+/* end hero */
+
+/* service */
+
+.title-service h5 {
+    color: var(--third-color);
+}
+/* end service */
