@@ -21,6 +21,19 @@ section{
     margin: 4rem 0;
 }
 
+.splide__track {
+    overflow: auto;
+    width: 100%;
+}
+.splide__list {
+    display: flex;
+    transition: transform 0.3s ease;
+    will-change: transform;
+}
+.splide__slide {
+    flex: 0 0 auto;
+}
+
 /* start navbar */
 
 .navbar .navbar-brand{
@@ -182,3 +195,102 @@ section{
     color: black;
 }
 /* end service */
+
+/* start explore */
+
+.title-explore h5 {
+    color: var(--third-color);
+}
+
+.btn-arrow {
+    background: var(--second-color);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+.explore-destination .card {
+    position: relative;
+    border: none;
+    background: none;
+    z-index: 1;
+    overflow: visible;
+}
+
+.explore-destination .card-body {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px);
+    width: 90%;
+    z-index: 100;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.card-body .descrtiption {
+    display: none;
+}
+
+.card-body:hover .descrtiption{
+    height: 20rem;
+    bottom: 35px;
+    display: inline;
+}
+
+.btn-category {
+    width: 71px;
+    height: 30px;
+    background: var(--third-color);
+    border-radius: 5px;
+    padding: 0;
+    font-weight: 600;
+}
+
+.custom-icon {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.bar {
+  height: 6px;
+  background: #555;
+  border-radius: 10px;
+}
+
+.bar-1 {
+  width: 80%;
+}
+
+.bar-2 {
+  width: 60%;
+}
+
+.bar-3 {
+  width: 40%;
+}
+
+.explore-destination .card-body .pricing {
+    background: var(--second-color);
+    width: 55px;
+    height: 55px;
+    top: 1px;
+    font-family: 'Open Sans';
+}
+
+.btn-detail {
+    background: var(--third-color);
+    color: white;
+    width: 60%;
+    border-radius: 60px;
+}
+
+
+/* end explore */

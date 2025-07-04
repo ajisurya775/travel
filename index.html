@@ -15,6 +15,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/splide.min.css">
 </head>
 
 <body>
@@ -86,7 +87,7 @@
 
             <div class="form-schedule d-flex justify-content-center align-items-center gap-5">
               <div class="form-group d-flex gap-3">
-                <i class="fa fa-map-marker fa-lg mt-4 ms-2" aria-hidden="true"></i>
+                <i class="fa fa-map-marker fa-2x mt-4 ms-2" aria-hidden="true"></i>
                 <div class="from-input">
                   <label for="location">Location <i class="fa fa-angle-down" aria-hidden="true"></i></label>
                   <input type="text" class="form-control">
@@ -94,7 +95,7 @@
               </div>
 
               <div class="form-group d-flex gap-3">
-                <i class="fa fa-calendar fa-lg mt-4 ms-2" aria-hidden="true"></i>
+                <i class="fa fa-calendar fa-2x mt-4 ms-2" aria-hidden="true"></i>
                 <div class="from-input">
                   <label for="date">Date <i class="fa fa-angle-down" aria-hidden="true"></i></label>
                   <input type="date" class="form-control">
@@ -127,8 +128,9 @@
         <div class="card card-start-radius d-flex justify-content-center align-items-center mt-5" style="width: 18rem;">
           <i class="fa fa-globe fa-3x mt-5" aria-hidden="true"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Lot of Choises</h5>
-            <p class="card-text">Total of more than 450 destinations in various countries in the world become partners
+            <h5 class="card-title fw-bold">Lot of Choises</h5>
+            <p class="card-text fw-normal">Total of more than 450 destinations in various countries in the world become
+              partners
               with us.</p>
             <a href="" class="learn-more fw-normal">Learn More <i class="fa fa-long-arrow-right"
                 aria-hidden="true"></i></a>
@@ -137,8 +139,8 @@
         <div class="card justify-content-center align-items-center mt-5" style="width: 18rem;">
           <i class="fa fa-users fa-3x mt-5" aria-hidden="true"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Tour Guide</h5>
-            <p class="card-text">There are 3 guides for each destination in the place you visit.</p>
+            <h5 class="card-title fw-bold">Tour Guide</h5>
+            <p class="card-text fw-normal">There are 3 guides for each destination in the place you visit.</p>
             <a href="" class="learn-more fw-normal">Learn More <i class="fa fa-long-arrow-right"
                 aria-hidden="true"></i></a>
           </div>
@@ -146,8 +148,9 @@
         <div class="card justify-content-center align-items-center mt-5" style="width: 18rem;">
           <i class="fa fa-cart-plus fa-3x mt-5" aria-hidden="true"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Easy Booking</h5>
-            <p class="card-text">We provide all services online which can be accessed easily through our website.</p>
+            <h5 class="card-title fw-bold">Easy Booking</h5>
+            <p class="card-text fw-normal">We provide all services online which can be accessed easily through our
+              website.</p>
             <a href="" class="learn-more fw-normal">Learn More <i class="fa fa-long-arrow-right"
                 aria-hidden="true"></i></a>
           </div>
@@ -155,8 +158,8 @@
         <div class="card card-end-radius justify-content-center align-items-center mt-5" style="width: 18rem;">
           <i class="fa fa-bed fa-3x mt-5" aria-hidden="true"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Luxury Hotel</h5>
-            <p class="card-text">We also provide lodging near the destination where you are visiting.</p>
+            <h5 class="card-title fw-bold">Luxury Hotel</h5>
+            <p class="card-text fw-normal">We also provide lodging near the destination where you are visiting.</p>
             <a href="" class="learn-more fw-normal">Learn More <i class="fa fa-long-arrow-right"
                 aria-hidden="true"></i></a>
           </div>
@@ -165,7 +168,204 @@
     </div>
   </section>
 
+  <section class="explore-destination">
+    <div class="container slider-wrapper" data-slider-id="explore-slider" data-per-page="4">
+      <div class="explore d-flex justify-content-between">
+        <div class="title-explore">
+          <h5 class="fw-bold">TOP DESTINATION</h5>
+          <h3 class="fw-bold">Explore Top Destination</h3>
+        </div>
+        <div class="button-click d-flex gap-2">
+          <button class="btn btn-arrow btnPrev"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></button>
+          <button class="btn btn-arrow btnNext"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></button>
+        </div>
+      </div>
+
+      <div class="splide mt-3" id="explore-slider">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <div class="card align-items-center border-0" style="width: 18rem; height: 25rem;">
+                <img src="assets/images/pantai-kutai.png" class="card-img-top" alt="...">
+                <div class="card-body justify-content-between border border-white">
+                  <div class="body-title d-flex">
+                    <button class="btn btn-category text-white border-0">Beach</button>
+                    <div class="custom-icon w-50">
+                      <div class="bar bar-1"></div>
+                      <div class="bar bar-2"></div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="pricing position-absolute rounded-circle me-2 end-0 mt-2 d-flex justify-content-center align-items-center text-white fw-bold">
+                    <p class="m-0">$300</p>
+                  </div>
+
+                  <h5 class="fw-bold mt-3">Kuta, Indonesia</h5>
+                  <div class="rating mt-1 d-flex gap-2 justify-content-start">
+                    <i class="fa fa-star mt-1" aria-hidden="true"></i>
+                    <p class="fw-normal">4.8</p>
+                    <p class="fw-normal">(1.6k Reviewer)</p>
+                  </div>
+                  <div class="descrtiption">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere
+                      deserunt, et nesciunt
+                      tempore</p>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-detail">Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="card align-items-center border-0" style="width: 18rem; height: 25rem;">
+                <img src="assets/images/bangkok.png" class="card-img-top" alt="...">
+                <div class="card-body justify-content-between border border-white">
+                  <div class="body-title d-flex">
+                    <button class="btn btn-category text-white border-0">Beach</button>
+                    <div class="custom-icon w-50">
+                      <div class="bar bar-1"></div>
+                      <div class="bar bar-2"></div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="pricing position-absolute rounded-circle me-2 end-0 mt-2 d-flex justify-content-center align-items-center text-white fw-bold">
+                    <p class="m-0">$300</p>
+                  </div>
+
+                  <h5 class="fw-bold mt-3">Bangkok, Thailand</h5>
+                  <div class="rating mt-1 d-flex gap-2 justify-content-start">
+                    <i class="fa fa-star mt-1" aria-hidden="true"></i>
+                    <p class="fw-normal">4.8</p>
+                    <p class="fw-normal">(1.6k Reviewer)</p>
+                  </div>
+                  <div class="descrtiption">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere
+                      deserunt, et nesciunt
+                      tempore</p>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-detail">Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="card align-items-center border-0" style="width: 18rem; height: 25rem;">
+                <img src="assets/images/candi-borobudur.png" class="card-img-top" alt="...">
+                <div class="card-body justify-content-between border border-white">
+                  <div class="body-title d-flex">
+                    <button class="btn btn-category text-white border-0">Beach</button>
+                    <div class="custom-icon w-50">
+                      <div class="bar bar-1"></div>
+                      <div class="bar bar-2"></div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="pricing position-absolute rounded-circle me-2 end-0 mt-2 d-flex justify-content-center align-items-center text-white fw-bold">
+                    <p class="m-0">$300</p>
+                  </div>
+
+                  <h5 class="fw-bold mt-3">Yogyakarta, Indonesia</h5>
+                  <div class="rating mt-1 d-flex gap-2 justify-content-start">
+                    <i class="fa fa-star mt-1" aria-hidden="true"></i>
+                    <p class="fw-normal">4.8</p>
+                    <p class="fw-normal">(1.6k Reviewer)</p>
+                  </div>
+                  <div class="descrtiption">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere
+                      deserunt, et nesciunt
+                      tempore</p>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-detail">Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="card align-items-center border-0" style="width: 18rem; height: 25rem;">
+                <img src="assets/images/zermatt.png" class="card-img-top" alt="...">
+                <div class="card-body justify-content-between border border-white">
+                  <div class="body-title d-flex">
+                    <button class="btn btn-category text-white border-0">Beach</button>
+                    <div class="custom-icon w-50">
+                      <div class="bar bar-1"></div>
+                      <div class="bar bar-2"></div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="pricing position-absolute rounded-circle me-2 end-0 mt-2 d-flex justify-content-center align-items-center text-white fw-bold">
+                    <p class="m-0">$300</p>
+                  </div>
+
+                  <h5 class="fw-bold mt-3">Zermatt, Swiss</h5>
+                  <div class="rating mt-1 d-flex gap-2 justify-content-start">
+                    <i class="fa fa-star mt-1" aria-hidden="true"></i>
+                    <p class="fw-normal">4.8</p>
+                    <p class="fw-normal">(1.6k Reviewer)</p>
+                  </div>
+                  <div class="descrtiption">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere
+                      deserunt, et nesciunt
+                      tempore</p>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-detail">Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="card align-items-center border-0" style="width: 18rem; height: 25rem;">
+                <img src="assets/images/zermatt.png" class="card-img-top" alt="...">
+                <div class="card-body justify-content-between border border-white">
+                  <div class="body-title d-flex">
+                    <button class="btn btn-category text-white border-0">Beach</button>
+                    <div class="custom-icon w-50">
+                      <div class="bar bar-1"></div>
+                      <div class="bar bar-2"></div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="pricing position-absolute rounded-circle me-2 end-0 mt-2 d-flex justify-content-center align-items-center text-white fw-bold">
+                    <p class="m-0">$300</p>
+                  </div>
+
+                  <h5 class="fw-bold mt-3">Zermatt, Swiss</h5>
+                  <div class="rating mt-1 d-flex gap-2 justify-content-start">
+                    <i class="fa fa-star mt-1" aria-hidden="true"></i>
+                    <p class="fw-normal">4.8</p>
+                    <p class="fw-normal">(1.6k Reviewer)</p>
+                  </div>
+                  <div class="descrtiption">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facere
+                      deserunt, et nesciunt
+                      tempore</p>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-detail">Details</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/splide.min.js"></script>
+  <script src="assets/js/custome.js"></script>
 </body>
-<script src="assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
 
 </html>
