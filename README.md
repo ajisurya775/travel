@@ -1,66 +1,34 @@
-🧭 Touravel – Travel Website Landing Page
-Touravel adalah sebuah landing page untuk situs pemesanan perjalanan wisata yang menampilkan berbagai fitur seperti penjelajahan destinasi populer, testimoni pelanggan, penawaran spesial, dan pendaftaran member.
+# 🌍 Touravel – Travel Website Landing Page
 
-🔍 Fitur Utama
-🌍 Destinasi Wisata Populer dengan slider interaktif (Splide.js)
+![Touravel Screenshot](assets/images/pantai-kutai.png)
 
-⭐ Testimoni Pelanggan dalam bentuk carousel card
+**Touravel** adalah landing page modern untuk situs perjalanan dan wisata. Dirancang dengan HTML5, Bootstrap 5, dan Splide.js, halaman ini responsif, mudah digunakan, dan memiliki tampilan profesional untuk agensi travel atau portofolio pribadi.
 
-🎉 Penawaran Spesial & Diskon
+---
 
-👤 Registrasi Member Baru
+## 🚀 Fitur Utama
 
-🏨 Informasi layanan lengkap (Hotel, Tour Guide, Easy Booking, dll)
+- 🎯 **Landing Page Responsive** dengan Bootstrap 5
+- 🌐 **Slider Destinasi Wisata** interaktif menggunakan Splide.js
+- 💬 **Testimoni Pelanggan** dinamis
+- 💼 **Informasi Perusahaan & Layanan**
+- 🎉 **Penawaran Spesial & Diskon**
+- 📥 **Form Feedback dan Registrasi Member**
+- 📱 Mobile-friendly dan optimal untuk berbagai ukuran layar
 
-📱 Desain Responsif menggunakan Bootstrap 5
+---
 
-📷 Gambar ilustratif untuk mendukung tampilan visual
+## 🛠️ Teknologi yang Digunakan
 
-📁 Struktur Folder
-arduino
-Salin
-Edit
-project-root/
-│
-├── index.html
-├── assets/
-│   ├── css/
-│   │   ├── style.css
-│   │   └── splide.min.css
-│   ├── js/
-│   │   ├── custome.js
-│   │   └── splide.min.js
-│   ├── images/
-│   │   └── [gambar-gambar seperti pantai-kutai.png, profile_travel.png, dll]
-│   ├── font-awesome-4.7.0/
-│   │   └── [file css & fonts]
-│   └── bootstrap-5.0.2-dist/
-│       ├── css/bootstrap.min.css
-│       └── js/bootstrap.bundle.js
-🚀 Cara Menjalankan Project
-Clone atau download project ini.
+- HTML5
+- CSS3
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Font Awesome 4.7](https://fontawesome.com/v4.7/)
+- [Splide.js](https://splidejs.com/)
+- Google Fonts: Poppins, Raleway, Roboto
+- JavaScript
 
-Buka file index.html di browser favorit kamu.
+---
 
-Pastikan semua file dalam folder assets/ tersedia dan struktur tidak berubah.
+## 📁 Struktur Folder
 
-🧩 Teknologi yang Digunakan
-HTML5
-
-CSS3
-
-Bootstrap 5
-
-Font Awesome 4.7
-
-Splide.js
-
-Google Fonts: Poppins, Raleway, Roboto
-
-📸 Preview
-Tambahkan gambar screenshot tampilan website di sini jika ada.
-
-✍️ Author
-Aji surya
-
-Dibuat untuk keperluan belajar dan portofolio
