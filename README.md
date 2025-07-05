@@ -2,6 +2,8 @@
 
 **Touravel** adalah landing page modern untuk situs perjalanan dan wisata. Dirancang dengan HTML5, Bootstrap 5, dan Splide.js, halaman ini responsif, mudah digunakan, dan memiliki tampilan profesional untuk agensi travel atau portofolio pribadi.
 
+link akses : https://ajisurya775.github.io/travel
+
 ---
 
 ## 🚀 Fitur Utama
