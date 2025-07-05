@@ -34,6 +34,10 @@ section{
     flex: 0 0 auto;
 }
 
+.text-orange {
+    color: var(--third-color);
+}
+
 /* start navbar */
 
 .navbar .navbar-brand{
@@ -292,5 +296,151 @@ section{
     border-radius: 60px;
 }
 
+.rating p {
+    font-family: 'Open Sans';
+}
+
+.rating i {
+    color: #D0E200;
+}
 
 /* end explore */
+
+/* special offers */
+
+.special-offer-header {
+    background: var(--second-color);
+    color: white;
+    border-radius: 10px;
+}
+
+.special-offer .card{
+    background: #355DAB;
+    color: white;
+    border: none;
+}
+
+.btn-booking {
+    width: 263px;
+    height: 97px;
+    background: var(--third-color);
+    color: white;
+    border-radius: 60px;
+}
+
+/* end special offers */
+
+/* our performance */
+.our-perfomance .image-performace img{
+    width: 80%;
+}
+
+.content-performance h5 {
+    color: var(--third-color);
+}
+
+.content-performance h3 {
+    color: #4A4A4A;
+}
+
+.content-performance p {
+    color: #4A4A4A;
+}
+
+.expirience h3 {
+    color: var(--third-color);
+}
+
+.expirience p {
+    font-weight: 600;
+}
+
+/* end our performance */
+
+/* start customer say */
+
+.experience h5 {
+    color: var(--third-color);
+}
+
+.experience h3 {
+    color: #4A4A4A;
+}
+
+.experience .profile {
+    position: relative;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.experience .profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.descrtiption-text {
+    line-height: 162%;
+    letter-spacing: 0%;
+}
+
+.splide__pagination {
+    gap: 8px;
+    border: red 1px;
+}
+
+.splide__pagination li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4A4A4A;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+  border: none;
+}
+
+.splide__pagination li button.is-active {
+  opacity: 1;
+  background: #4A4A4A;
+}
+
+/* end customer say */
+
+/* start member ship */
+
+.member-header {
+    background: var(--third-color);
+    color: #292929;
+    border-radius: 10px;
+}
+
+.member .card{
+    width: 35%;
+    background: #284F9D54;
+    color: white;
+    border: none;
+}
+
+.btn-member {
+    width: 263px;
+    height: 97px;
+    background: var(--second-color);
+    color: white;
+    border-radius: 60px;
+}
+
+/* end member ship */
+
+/* start footers */
+
+.footers h3 span {
+    color: var(--third-color);
+}
+.footers a{
+    text-decoration: none;
+    color: #4A4A4A;
+}
+/* end footers */
