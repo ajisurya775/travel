@@ -43,3 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
         autoplay: true,
     }).mount();
 });
+
+flatpickr("#dateInput", {
+  enableTime: false,
+  dateFormat: "Y-m-d",
+  defaultDate: new Date(),
+});

@@ -17,6 +17,8 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="assets/css/splide.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </head>
 
 <body>
@@ -94,17 +96,19 @@
                     <div class="from-input">
                       <label for="location">Location <i class="fa fa-angle-down" aria-hidden="true"></i></label>
                       <input type="text" class="form-control d-none d-md-block" placeholder="Search for a location">
-                      <input type="text" class="form-control d-block d-sm-none" placeholder="Search for a location">
+                      <input type="text" class="form-control form-sm-control d-block d-sm-none"
+                        placeholder="Search for a location">
                     </div>
                   </div>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center">
-                  <div class="form-group d-flex gap-3 sm-0">
-                    <i class="fa fa-calendar fa-1x mt-4 ms-2" aria-hidden="true"></i>
+                  <div class="form-group d-flex gap-3 ms-2">
+                    <i class="fa fa-calendar mt-4" aria-hidden="true"></i>
                     <div class="from-input">
-                      <label for="date">Date <i class="fa fa-angle-down" aria-hidden="true"></i></label>
-                      <input type="date" class="form-control d-none d-md-block" style="width: 210px;">
-                      <input type="date" class="form-control d-block d-sm-none" style="width: 197px;">
+                      <label for="location">Date <i class="fa fa-angle-down" aria-hidden="true"></i></label>
+                      <input type="text" id="dateInput" class="form-control d-none d-md-block w-100 bg-white">
+                      <input type="text" id="dateInput"
+                        class="form-control form-sm-control d-block d-sm-none w-100 bg-white">
                     </div>
                   </div>
                 </div>
@@ -379,21 +383,23 @@
 
   <section class="special-offer">
     <div class="container">
-      <div class="special-offer-header d-sm-flex d-lg-flex justify-content-between p-4">
-        <div class="title ms-5 text-center align-items-center pt-3">
-          <h2 class="fw-bold">SPECIAL OFFER</h2>
+      <div
+        class="special-offer-header d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between p-4 text-center text-lg-start">
+        <div class="title pt-3 ms-lg-5">
+          <h2 class="fw-bold text-center">SPECIAL OFFER</h2>
           <div class="card ps-5 pe-5 pb-2">
-            <h5 class="fw-normal mt-3">Family Weeked Package</h5>
+            <h5 class="fw-normal mt-3">Family Weekend Package</h5>
           </div>
-          <h5 class="fw-normal mt-3">Off up to 30%</h5>
+          <h5 class="fw-normal mt-3 text-center">Off up to 30%</h5>
         </div>
 
-        <div class="booking mt-4 me-5">
+        <div class="booking mt-4 me-lg-5">
           <button class="btn btn-booking fw-bold">
             BOOK NOW
           </button>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -498,7 +504,8 @@
 
   <section class="member">
     <div class="container">
-      <div class="member-header d-sm-flex d-lg-flex justify-content-between p-4">
+      <div
+        class="member-header d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between p-4 text-lg-start">
         <div class="title ms-5 d-flex flex-column justify-content-start pt-3">
           <h2 class="fw-bold">ARE YOU NEW MEMBER FOR THIS TRIP ? </h2>
           <h5 class="fw-normal">Let's register now and get cashback</h5>
@@ -508,7 +515,7 @@
 
         </div>
 
-        <div class="booking mt-4 me-5">
+        <div class="booking mt-4">
           <button class="btn btn-member fw-bold">
             REGISTER
           </button>
@@ -521,7 +528,7 @@
     <div class="container">
       <div class="row">
         <!-- Social Media -->
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 jus">
           <h3 class="fw-bold">Tour<span>avel</span></h3>
           <p class="fw-normal">The best service to customers is our top priority in building a business</p>
           <div class="items d-flex gap-3 mb-3">

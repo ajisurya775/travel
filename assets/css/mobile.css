@@ -1,6 +1,6 @@
 @media (max-width: 767.98px) {
     .get-hero {
-        right: 90px;
+         transform: translateX(50%);
     }
 
     .form-schedule {

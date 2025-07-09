@@ -95,7 +95,7 @@ section{
     z-index: 1000;
     position: absolute;
     top: -25px;
-    right: 400px;
+    right: 50%;
 }
 
 .get-hero h6 {
@@ -418,7 +418,7 @@ section{
 }
 
 .member .card{
-    width: 35%;
+    width: 205px;
     background: #284F9D54;
     color: white;
     border: none;
