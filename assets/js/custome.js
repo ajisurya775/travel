@@ -49,3 +49,4 @@ flatpickr("#dateInput", {
   dateFormat: "Y-m-d",
   defaultDate: new Date(),
 });
+
