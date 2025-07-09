@@ -1,4 +1,4 @@
-@media (max-width: 576px) {
+@media (max-width: 767.98px) {
     .get-hero {
         right: 90px;
     }
@@ -13,11 +13,4 @@
         margin-top: 15%;
     }
     
-    .hero-traveler {
-        margin-top: 124%;
-    }
-
-    .splide {
-    max-width: 90%;
-  }
 }
