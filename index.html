@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mobile.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -85,28 +86,40 @@
               <h6 class="fw-bold mb-0">Get the schedule</h6>
             </div>
 
-            <div class="form-schedule d-flex justify-content-center align-items-center gap-5">
-              <div class="form-group d-flex gap-3">
-                <i class="fa fa-map-marker fa-2x mt-4 ms-2" aria-hidden="true"></i>
-                <div class="from-input">
-                  <label for="location">Location <i class="fa fa-angle-down" aria-hidden="true"></i></label>
-                  <input type="text" class="form-control">
+            <div class="form-schedule">
+              <div class="row pt-3 justify-content-center">
+                <div class="col-md-5 d-flex justify-content-center">
+                  <div class="form-group d-flex gap-3 ms-2">
+                    <i class="fa fa-map-marker fa-1x mt-4 ms-2" aria-hidden="true"></i>
+                    <div class="from-input">
+                      <label for="location">Location <i class="fa fa-angle-down" aria-hidden="true"></i></label>
+                      <input type="text" class="form-control d-none d-md-block" placeholder="Search for a location">
+                      <input type="text" class="form-control d-block d-sm-none" placeholder="Search for a location">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 d-flex justify-content-center">
+                  <div class="form-group d-flex gap-3 sm-0">
+                    <i class="fa fa-calendar fa-1x mt-4 ms-2" aria-hidden="true"></i>
+                    <div class="from-input">
+                      <label for="date">Date <i class="fa fa-angle-down" aria-hidden="true"></i></label>
+                      <input type="date" class="form-control d-none d-md-block" style="width: 210px;">
+                      <input type="date" class="form-control d-block d-sm-none" style="width: 197px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 d-flex justify-content-center mt-3">
+                  <div class="form-group">
+                    <button class="btn btn-search">
+                      <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
 
-              <div class="form-group d-flex gap-3">
-                <i class="fa fa-calendar fa-2x mt-4 ms-2" aria-hidden="true"></i>
-                <div class="from-input">
-                  <label for="date">Date <i class="fa fa-angle-down" aria-hidden="true"></i></label>
-                  <input type="date" class="form-control">
-                </div>
-              </div>
-
-              <button class="btn btn-search">
-                <i class="fa fa-search fa-lg" aria-hidden="true"></i>
-              </button>
+              <p class="fw-normal mt-4 text-center">Popular search : Kuta beach, Raja Ampat Beach, Borobudur temple</p>
             </div>
-            <p class="fw-normal ms-5 mt-2">Popular search : Kuta beach, Raja Ampat Beach, Borobudur temple</p>
+
           </div>
         </div>
       </div>
@@ -124,7 +137,8 @@
         <p>The best service that will be with you every time</p>
       </div>
 
-      <div class="service-items d-lg-flex justify-content-center">
+      <div
+        class="service-items d-flex flex-column align-items-center d-lg-flex flex-lg-row align-items-lg-stretch justify-content-lg-center">
         <div class="card card-start-radius d-flex justify-content-center align-items-center mt-5" style="width: 18rem;">
           <i class="fa fa-globe fa-3x mt-5" aria-hidden="true"></i>
           <div class="card-body text-center">

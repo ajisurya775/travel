@@ -1,0 +1,23 @@
+@media (max-width: 576px) {
+    .get-hero {
+        right: 90px;
+    }
+
+    .form-schedule {
+        max-width: 350px;
+        height: 250px;
+        max-height: 100%;
+    }
+
+    .hero-map {
+        margin-top: 15%;
+    }
+    
+    .hero-traveler {
+        margin-top: 124%;
+    }
+
+    .splide {
+    max-width: 90%;
+  }
+}
