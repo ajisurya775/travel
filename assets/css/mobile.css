@@ -17,6 +17,17 @@
     .hero-traveler {
        margin-top: 25rem;
     }
+    .explore-destination .splide__slide .card {
+      width: 100% !important;
+    }
+
+    .explore-destination .card-body {
+      bottom: 5px;
+    }
+
+    .service {
+        margin-top: 8rem !important;
+    }
     
 }
 

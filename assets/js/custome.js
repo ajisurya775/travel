@@ -9,7 +9,7 @@
             const gap = "1rem";
 
             if (perPage < 1){
-               const gap = "1px";
+                gap = "1px";
             }
 
 
