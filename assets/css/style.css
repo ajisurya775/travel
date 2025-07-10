@@ -6,6 +6,10 @@
     --second-font : 'Poppins', sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body{
     font-family: var(--main-font);
     background: var(--main-color) !important;
